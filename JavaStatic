@@ -1,0 +1,22 @@
+class Student {
+    static int totalStudents = 0;  // biến static dùng chung cho tất cả các đối tượng
+
+    Student() {
+        totalStudents++;  // tạo đối tượng mới --> totalStudents tăng lên
+    }
+
+    static void showTotalStudents() {  // phương thức static
+        System.out.println("Tổng số học sinh: " + totalStudents);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // tạo đối tượng mới của lớp Student
+        Student student1 = new Student();
+        Student student2 = new Student();
+
+        // gọi phương thức static mà không cần tạo đối tượng
+        Student.showTotalStudents();  // output: tổng số học sinh: 2
+    }
+}
