@@ -1,0 +1,23 @@
+class Student {
+    int totalStudents = 0;  // biến instance, mỗi đối tượng có một bản sao riêng
+
+    Student() {
+        totalStudents++;  // mỗi đối tượng có một giá trị khác nhau cho biến này
+    }
+
+    void showTotalStudents() {
+        System.out.println("Số học sinh của đối tượng này: " + totalStudents);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // tạo hai đối tượng mới
+        Student student1 = new Student();
+        Student student2 = new Student();
+
+        // mỗi đối tượng có biến totalStudents riêng biệt
+        student1.showTotalStudents();  // output: số học sinh của đối tượng này = 1
+        student2.showTotalStudents();  // output: số học sinh của đối tượng này = 1
+    }
+}
