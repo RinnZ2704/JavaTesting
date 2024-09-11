@@ -26,3 +26,5 @@ public class Main {
         EventLogger.showEventCount(); 
     }
 }
+
+/*Tạo đối tượng nhưng ko sử dụng ngay. Mục đích của việc tạo đối tượng là để thực hiện 1 công việc cụ thểw (ghi lại thời gian sự kiện). Sau khi hoàn thành việc không cần giữ lại đối tượng để sử dụng tiếp*/
