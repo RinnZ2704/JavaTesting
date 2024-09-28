@@ -1,1 +1,5 @@
-Lorem Ipsum Dolor Sit Amet
+Handles user Input/Output such as Booked/NotBooked
+vd public class BookKhachSanController {
+  tao bien? --> public void bookroom(int roomnumber)
+}
+
