@@ -1,3 +1,18 @@
+Bài tập này yêu cầu thiết kế một hệ thống đơn giản áp dụng các tính chất cơ bản của lập trình hướng đối tượng (OOP) như tính đóng gói (Encapsulation), tính kế thừa (Inheritance), tính đa hình (Polymorphism), và tính trừu tượng (Abstraction).
+
+Đề bài: Quản lý hệ thống đặt phòng khách sạn
+Yêu cầu:
+
+Hệ thống quản lý thông tin phòng khách sạn, bao gồm các loại phòng như: phòng thường, phòng hạng sang, phòng VIP.
+Người dùng có thể xem thông tin phòng, đặt phòng và hủy đặt phòng.
+Áp dụng tính kế thừa cho các loại phòng khác nhau.
+Sử dụng tính đa hình để tính tổng chi phí phòng dựa trên loại phòng.
+Các tính chất OOP cần áp dụng:
+
+Encapsulation: Đóng gói thông tin của phòng,
+
+~~~
+
 Tao Class KhachSan
 
 Subclass CacPhong extends KhachSan
