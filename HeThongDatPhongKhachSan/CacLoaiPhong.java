@@ -1,0 +1,4 @@
+class CacLoaiPhong extends KhachSan {
+
+  
+}
