@@ -1,1 +1,12 @@
+Tao Class KhachSan
+
+Subclass CacPhong extends KhachSan
+PhongThuong extends CacPhong
+PhongHangSang extends CacPhong
+PhongVip extends CacPhong
+
+method (); --> System.out.println([Room details])
+
+De xem phong su dung public static void main(String[] args) {}
+  [object].[method()]
 
