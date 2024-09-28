@@ -1,1 +1,1 @@
-Lorem Ipsum Dolor Sit Amet
+CacLoaiPhong nen la Abstract Class
