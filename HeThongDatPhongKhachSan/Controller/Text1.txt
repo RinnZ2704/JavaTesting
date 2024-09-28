@@ -3,3 +3,5 @@ vd public class BookKhachSanController {
   tao bien? --> public void bookroom(int roomnumber)
 }
 
+Ve sau co the de status cua room la booked/notbooked voi gia tri 0 hoac 1
+Sau nay khi bookroom co the dung ham if de check room co bi book roi chua roi moi book room, neu phong da book bao error/system.out.println()
