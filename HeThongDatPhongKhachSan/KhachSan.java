@@ -7,5 +7,6 @@ class KhachSan {
   public void nam() {
     System.out.println("Khach San duoc xay dung vao nam 2024");
   }
+  
 }
 
