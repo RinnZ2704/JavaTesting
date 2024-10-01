@@ -1,3 +1,5 @@
+SỬ DUNG MVC FRAMEWORK
+
 Bài tập này yêu cầu thiết kế một hệ thống đơn giản áp dụng các tính chất cơ bản của lập trình hướng đối tượng (OOP) như tính đóng gói (Encapsulation), tính kế thừa (Inheritance), tính đa hình (Polymorphism), và tính trừu tượng (Abstraction).
 
 Đề bài: Quản lý hệ thống đặt phòng khách sạn
