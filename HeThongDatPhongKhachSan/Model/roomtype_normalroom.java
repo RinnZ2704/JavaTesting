@@ -1,4 +1,4 @@
-class PhongThuong extends CacLoaiPhong {
+class normalroom extends roomtypes {
 
   public void room_info()
   
