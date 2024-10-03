@@ -1,5 +1,5 @@
 class PhongThuong extends CacLoaiPhong {
 
-  public void ThongTinPhong()
+  public void room_info()
   
 }
