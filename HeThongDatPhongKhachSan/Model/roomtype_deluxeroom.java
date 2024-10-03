@@ -1,5 +1,5 @@
-class PhongHangSang extends CacLoaiPhong {
+class PhongHangSang extends room_types {
 
-  public void ThongTinPhong()
+  public void room_info()
   
 }
