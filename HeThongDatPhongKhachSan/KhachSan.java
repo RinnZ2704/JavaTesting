@@ -1,4 +1,4 @@
-class KhachSan {
+public class KhachSan {
   
   public void ten() {
     System.out.println("Chao mung quy khach");
