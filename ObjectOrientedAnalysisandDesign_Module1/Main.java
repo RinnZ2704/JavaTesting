@@ -1,0 +1,13 @@
+class TinhToan {
+    public int cong(int a, int b) {
+        return a + b;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        TinhToan tinhToan = new TinhToan();
+        int ketQua = tinhToan.cong(5, 3);
+        System.out.println("Ket Qua: " + ketQua);
+    }
+}
