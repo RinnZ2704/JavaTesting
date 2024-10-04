@@ -2,8 +2,8 @@
 //Tạo Getter Setter cho 2 thuộc tính (Để phục vụ Encapsulation do đã để private --> Cần phương thức Getter & Setter để lấy dữ liệu)
 //Phương thức TRỪU TƯỢNG để tính giá của từng phòng
 //Tất cả class cần tạo constructor --> Tạo constructor ở Class con, sử dụng được thuộc tính của class cha
+//1 class & object khác nhau ở structure --> Structure in Java = ? --> Create a constructor? --> Tìm hiểu cách tạo 1 Constructor
 //Các class còn lại, thường hay hạng sang tất cả đều phải tạo getPrice()
-//
 
 package model;
 

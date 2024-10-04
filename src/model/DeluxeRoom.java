@@ -1,4 +1,9 @@
 package model;
 
-public class DeluxeRoom {
+public class DeluxeRoom extends Room {
+    @Override
+    public double getPrice() {
+        return 50;
+    }
 }
+
