@@ -14,16 +14,11 @@ public abstract class Room {
 
     //Phương thức TRỪU TƯỢNG để tính giá của từng phòng
     public abstract double getPrice();
-
     public String getRoomNumber() {
         return roomNumber;
     }
 
     public boolean isBooked() {
         return isBooked;
-    }
-
-    public boolean isAvailable() {
-        return isAvailable;
     }
 }

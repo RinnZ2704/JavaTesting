@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec62af3-8947-443d-85ad-f031a8f60908" name="Changes" comment="getPrice">
+    <list default="true" id="8ec62af3-8947-443d-85ad-f031a8f60908" name="Changes" comment="Getter + Setter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/VipRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/VipRoom.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,7 @@
       <updated>1727969294511</updated>
       <workItem from="1727969295733" duration="42000" />
       <workItem from="1727969434919" duration="947000" />
-      <workItem from="1728040257294" duration="6368000" />
+      <workItem from="1728040257294" duration="7017000" />
     </task>
     <task id="LOCAL-00001" summary="CodeUpload">
       <option name="closed" value="true" />
@@ -125,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728049635463</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Getter + Setter">
+      <option name="closed" value="true" />
+      <created>1728051674859</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728051674859</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +142,8 @@
     <MESSAGE value="CodeUpload" />
     <MESSAGE value="getPrice test" />
     <MESSAGE value="getPrice" />
-    <option name="LAST_COMMIT_MESSAGE" value="getPrice" />
+    <MESSAGE value="Getter + Setter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Getter + Setter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -144,6 +152,11 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/model/VipRoom.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
