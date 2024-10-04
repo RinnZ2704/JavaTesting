@@ -10,7 +10,11 @@ package model;
 public abstract class Room {
     private String roomNumber;
     private boolean isBooked;
-    private boolean isAvailable;
+
+    public Room(String roomNumber, boolean isBooked) {
+        this.roomNumber = roomNumber;
+        this.isBooked = isBooked;
+    }
 
     //Phương thức TRỪU TƯỢNG để tính giá của từng phòng
     public abstract double getPrice();
